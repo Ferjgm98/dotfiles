@@ -1,0 +1,8 @@
+[user]
+	email = fernandomenjivar2011@gmail.com
+	name = Fernando Gonzalez
+[pull]
+	rebaase = false
+	rebase = false
+[init]
+	defaultBranch = main
