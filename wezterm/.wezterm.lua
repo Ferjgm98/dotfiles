@@ -14,8 +14,9 @@ end
 
 -- For example, changing the color scheme:
 config.color_scheme = "Catppuccin Mocha"
-config.font = wezterm.font("JetBrains Mono", { weight = "Regular" })
-config.font_size = 13.0
+config.font = wezterm.font("MonoLisa Nerd Font", { weight = "Medium" })
+config.harfbuzz_features = { "zero", "ss04", "ss07", "ss08", "ss09" }
+config.font_size = 14.0
 config.enable_tab_bar = false
 
 config.mouse_bindings = {
