@@ -15,8 +15,7 @@ return {
 			},
 		})
 
-		vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Oil open" })
-		vim.keymap.set("n", "<leader>-", oil.toggle_float, { desc = "Oil float" })
+		vim.keymap.set("n", "-", oil.toggle_float, { desc = "Oil open" })
 		vim.keymap.set("n", "<leader>|", actions.select_vsplit.callback, { desc = actions.select_vsplit.desc })
 		vim.keymap.set("n", "<leader>-", actions.select_split.callback, { desc = actions.select_split.desc })
 		vim.keymap.set("n", "<leader>r", actions.refresh.callback, { desc = actions.refresh.desc })

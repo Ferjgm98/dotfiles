@@ -15,7 +15,6 @@ option_as_alt = "Both"
 
 [font]
 normal.family = "MonoLisa Nerd Font"
-normal.style = "Regular"
 
 size = 14
 

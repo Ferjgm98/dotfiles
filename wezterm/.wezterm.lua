@@ -13,10 +13,15 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = "Catppuccin Mocha"
-config.font = wezterm.font("MonoLisa Nerd Font", { weight = "Medium" })
+config.color_scheme = "Night Owl (Gogh)"
+config.font = wezterm.font_with_fallback({
+	{ family = "MonoLisa Nerd Font", weight = "Medium" },
+	"Noto Sans",
+	"Noto Color Emoji",
+})
 config.harfbuzz_features = { "zero", "ss04", "ss07", "ss08", "ss09" }
 config.font_size = 14.0
+
 config.enable_tab_bar = false
 
 config.mouse_bindings = {
